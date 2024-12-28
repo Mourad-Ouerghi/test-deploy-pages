@@ -3,8 +3,6 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  devToolbar: {
-    enabled: false,
-  },
-  integrations: [tailwind()],
+  site: 'https://Mourad-Ouerghi.github.io',
+  base: '/test-deploy-pages',
 });
